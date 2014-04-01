@@ -1,0 +1,10 @@
+1976<title1<5<g1|g2|g3|g4<a0, a1, a2, a3
+1977<title2<7<g1|g3|g4|g5<a0
+1978<title3<8<<a3, a4, a5, a6
+1979<title4<4<g1|g3<a0, a3
+1978<title5<4<g2|g4<a6, a7, a8
+1981<title6<5<g1|g6<a8
+1982<title7<7<g7|g8|g9|g0<a0, a7, a9
+1983<title8<9<<a3, a8, a0
+1984<title9<6<g6|g7<a2
+1985<title0<5<g4|g7|g9<a5, a8

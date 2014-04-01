@@ -49,19 +49,20 @@ INSERT INTO MOVIELOOKUP (title, description) VALUES ('$title', '$title released 
     for g in $genreList
      do	
 	  cqlT="SELECT rating from topmovies where genre='$g';"
-	  before=$(runCQL "$cqlT")
-	  echo $before
+	  before=$(runCQL "$cqlT" | sed 's/--------//g' | sed 's/rating//g' | sed 's/(1 rows)//g' | tr -d ' ')	 
+	  if [ "$rating" -gt "$before"  ] #update
+	   then
+	    query="$query \n UPDATE topMovies SET rating = $rating, title = '$title' WHERE genre = '$g';"
+	  fi
      done
   fi
   
-  
-  query="INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('$genre', '$title', $rating);"
-  
- 
+   
   #TOPACTORS
   #query="$query \n UPDATE TOPACTORS set popularity = popularity + 1 where actor = '$actor';"
   
-  #runCQL "$query"
+ 
+  runCQL "$query"
  
  exit 0
 }
@@ -71,22 +72,24 @@ function deleteMovie {
  title=$1
 
  #MOVIELOOKUP
- cql="$cql \n DELETE FROM MOVIELOOKUP WHERE title='$title';"
+ query="$query \n DELETE FROM MOVIELOOKUP WHERE title='$title';"
 
  #TOPMOVIES
- cql="$cql \n DELETE FROM TOPMOVIES WHERE title='$title';"
+ #query="$query \n DELETE FROM TOPMOVIES WHERE title='$title';" #FIXME
  
  #TOPACTORS
- cql="$cql \n UPDATE TOPACTORS set popularity = popularity + 1 where actor = '$actor';"
+ #TODO
+ 
+ runCQL "$query"
  
  exit 0
 
 }
 
 #getMovie 'title7'
-#getTopMovies 'g1'
-addMovie '1995' 'title_added' '7' 'g2|g9' 'a1,a9'
-
+getTopMovies 'g1'
+#addMovie '1995' 'title_added' '7' 'g2|g9' 'a1,a9'
+#deleteMovie 'title_added'
 
 
 exit 0

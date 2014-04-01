@@ -14,3 +14,4 @@ echo $cql | sed 's/\n//g' > $cqlFile
 cqlsh -f "$cqlFile" 54.185.30.189 
 
 exit 0
+

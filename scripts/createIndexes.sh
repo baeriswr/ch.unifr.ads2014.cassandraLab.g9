@@ -5,8 +5,7 @@ rm -f $cqlFile
 
 
 cql="USE group9;
-CREATE INDEX ON TOPMOVIES(genre);
-CREATE INDEX ON ROLES(title);
+CREATE INDEX ON TOPMOVIES(title);
 "
 
 

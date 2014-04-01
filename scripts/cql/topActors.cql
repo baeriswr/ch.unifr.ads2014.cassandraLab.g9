@@ -1,0 +1,11 @@
+use group9; 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a0', 5); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a1', 1); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a2', 2); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a3', 4); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a4', 1); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a5', 2); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a6', 2); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a7', 2); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a8', 4); 
+ INSERT INTO TOPACTORS (actor, popularity) VALUES ('a9', 1);

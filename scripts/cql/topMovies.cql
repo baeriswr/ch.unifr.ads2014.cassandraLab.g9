@@ -1,0 +1,12 @@
+use group9; 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g0', 'title7', 7); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g1', 'title4', 4); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g2', 'title5', 4); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g3', 'title4', 4); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g4', 'title5', 4); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g5', 'title2', 7); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g6', 'title6', 5); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g7', 'title0', 5); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g8', 'title7', 7); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('g9', 'title0', 5); 
+ INSERT INTO TOPMOVIES (genre, title, rating) VALUES ('nothing', 'title3', 8);

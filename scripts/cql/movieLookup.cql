@@ -1,0 +1,11 @@
+use group9; 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title1', 'title1 released at 1976 which is a g1|g2|g3|g4 film with a0, a1, a2, a3 as actors, this film has obtained the rate 5'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title2', 'title2 released at 1977 which is a g1|g3|g4|g5 film with a0 as actors, this film has obtained the rate 7'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title3', 'title3 released at 1978 which is a  film with a3, a4, a5, a6 as actors, this film has obtained the rate 8'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title4', 'title4 released at 1979 which is a g1|g3 film with a0, a3 as actors, this film has obtained the rate 4'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title5', 'title5 released at 1978 which is a g2|g4 film with a6, a7, a8 as actors, this film has obtained the rate 4'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title6', 'title6 released at 1981 which is a g1|g6 film with a8 as actors, this film has obtained the rate 5'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title7', 'title7 released at 1982 which is a g7|g8|g9|g0 film with a0, a7, a9 as actors, this film has obtained the rate 7'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title8', 'title8 released at 1983 which is a  film with a3, a8, a0 as actors, this film has obtained the rate 9'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title9', 'title9 released at 1984 which is a g6|g7 film with a2 as actors, this film has obtained the rate 6'); 
+INSERT INTO MOVIELOOKUP (title, description) VALUES ('title0', 'title0 released at 1985 which is a g4|g7|g9 film with a5, a8 as actors, this film has obtained the rate 5');
